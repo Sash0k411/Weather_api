@@ -52,6 +52,8 @@ gem "httparty"
 
 gem "dotenv-rails"
 
+gem "whenever", require: false
+
 group :development, :test do
   gem "pry-rails"
   gem "rspec-rails"
